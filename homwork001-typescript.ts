@@ -82,3 +82,40 @@ employee1.displayEmployee();
 console.log(`The tax is : ${employee1.tax(bonus1)}$`);
 console.log(`The net salary is : ${employee1.netSalary(bonus1)}$`);
 
+
+
+
+// ----------------------------------------------------------------
+
+// // Type aliases
+// type userName = string;
+// type userId = string | number // union type
+// type Person = {
+//     id : userId;
+//     name : userName;
+//     gender : string;
+//     age : number;
+//     isWebDev : boolean;
+// }
+
+//using interface, does not require equal sign
+
+// interface Person{
+//     id : userId,
+//     name : userName,
+//     gender : string,
+//     age : number,
+//     isWebDev : boolean
+// }
+
+// const user : Person = {
+//     id : "1001",
+//     name : "mony",
+//     gender : "male",
+//     age : 20,
+//     isWebDev : true
+// }
+
+// console.log("\n")
+// console.log(user);
+// console.log("\n")
