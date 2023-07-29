@@ -82,7 +82,18 @@ employee1.displayEmployee();
 console.log(`The tax is : ${employee1.tax(bonus1)}$`);
 console.log(`The net salary is : ${employee1.netSalary(bonus1)}$`);
 
+/**
+ * OUTPUT
+ * Software Engineering : 5000$
+John is male and he is 28 years old.   
+The tax is : 550$
+The net salary is : 4950$
 
+Software Engineering : 5000$
+Mary is female and she is 30 years old.
+The tax is : 500$
+The net salary is : 4500$
+ */
 
 
 // ----------------------------------------------------------------
